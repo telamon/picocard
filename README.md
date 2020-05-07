@@ -2,7 +2,11 @@
 [`code style | standard`](https://standardjs.com/)
 # picocard
 
-> A digital postcard for picofeeds
+> A digital postcard with markdown for picofeeds
+
+Currently in the process of shedding some deps and refactoring.
+Please revisit later or checkout [1K](https://1k.surge.sh) to see
+picocard in action.
 
 ## Use
 
