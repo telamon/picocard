@@ -1,7 +1,7 @@
 {
   "name": "picocard",
   "version": "0.1.1",
-  "description": "A digital postcard for picofeeds",
+  "description": "A digital postcard with markdown for picofeeds",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
