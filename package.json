@@ -1,6 +1,6 @@
 {
   "name": "picocard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A digital postcard for picofeeds",
   "main": "index.js",
   "scripts": {
