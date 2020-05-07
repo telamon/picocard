@@ -1,0 +1,35 @@
+{
+  "name": "picocard",
+  "version": "0.1.0",
+  "description": "A digital postcard for picofeeds",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "tape test.js",
+    "protobuf": "protocol-buffers -o messages.js schema.proto",
+    "debug": "node inspect $(npm bin)/tape test.js",
+    "prepublishOnly": "standard && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/telamon/picocard"
+  },
+  "author": "Tony Ivanov <telamohn@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/telamon/picocard"
+  },
+  "homepage": "https://github.com/telamon/picocard",
+  "devDependencies": {
+    "protocol-buffers": "^4.1.2",
+    "standard": "^14.3.3",
+    "tape": "^5.0.0"
+  },
+  "dependencies": {
+    "cryptology": "^1.0.0",
+    "lz-string": "^1.4.4",
+    "lzutf8": "^0.5.5",
+    "picofeed": "^2.1.0",
+    "protocol-buffers-encodings": "^1.1.0"
+  }
+}
