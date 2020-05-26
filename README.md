@@ -53,7 +53,8 @@ Telegram: https://t.me/decentlabs_se
 
 ## Changelog
 
-### 0.1.0 first release
+### 0.1.0
+- first release
 
 ## Contributing
 
@@ -66,4 +67,4 @@ Only changesets by human contributors will be accepted.
 
 [AGPL-3.0-or-later](./LICENSE)
 
-2020 &#x1f12f; Tony Ivanov <telamohn@gmail.com>
+2020 &#x1f12f; Tony Ivanov <telamohn@pm.me>
